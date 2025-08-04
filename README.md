@@ -3,6 +3,7 @@ set -e
 
 # Install Java 17
 sudo apt update
+sudo apt upgrade -y
 sudo apt install -y openjdk-17-jdk
 
 # Set JAVA_HOME
